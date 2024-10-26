@@ -55,10 +55,6 @@ i2c:
 * Tested on ESP-12 with VFD Clock but should work on all ESP chips normally
 * Not actually sure low-voltage detection is useful
 
-## Examples
-
-See examples under [config](config).
-
 ## Notes
 
 On pages 20-22, there are ways to detect abnormalities in the RTC clock.  In your code, you should do a read first, then check the values of

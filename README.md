@@ -64,7 +64,7 @@ See examples under [config](config).
 On pages 20-22, there are ways to detect abnormalities in the RTC clock.  In your code, you should do a read first, then check the values of
 3 variables.  Here they are with their normal values:
 
-```
+```cpp
 rx8025_.reg.pon = false;
 rx8025_.reg.xst = true;
 rx8025_.reg.vdet = false;
